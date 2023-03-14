@@ -88,11 +88,11 @@ function draw() {
         jwelleryG.setVelocityYEach(0);
         swordGroup.setVelocityYEach(0);
 //create a sprite
-gameOverS = createSprite(150,250,50,10);
+gameOverS = createSprite(100,250,50,10);
 //add a animation for gameover
 gameOverS.addAnimation("game Over",gameOver);
 //scale the gameover image
-gameOverS.scale-0.5
+gameOverS.scale-0.7
     boy.destroy()   
     }
   }
